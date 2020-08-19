@@ -1,0 +1,86 @@
+body{
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	/*same as above*/
+	font:normal 16px Arial, Helvetica, sans-serif;
+
+	line-height: 1.6em;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color:red;
+}
+
+a:visited{
+	color: yellow;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+
+}
+
+.box-1{
+	background-color: #333;
+	color: #fff;
+
+	border-top: 5px red solid;
+	border-right: 5px red solid;
+	border-bottom: 5px red solid;
+	border-left: 5px red solid;
+		border-right-width: 6px;
+	border-top-style: dotted;
+
+	border: 5px red solid;
+	
+	padding: 20px;
+
+	margin: 20px 0;
+}
+
+.box-1 h1{
+	font-weight: 800;
+	font-family: sans-serif;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+
+}
+
+.box-2{
+	border:3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+
+}
+
+.category{
+	border:solid #ccc 2px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.category h2{
+	text-align: center;
+}
+
+.category ul{
+	list-style: square;
+}
+
+.category li{
+	padding: 3px;
+	border-bottom: 1px dotted #333
+
+}
